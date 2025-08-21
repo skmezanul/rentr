@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '4.1.4'
+gem 'rails', '7.1.5.2'
 gem 'pg'
 
 gem 'sass-rails', '~> 4.0.3'
@@ -10,14 +10,14 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-gem 'monban', '~> 0.1.1'
+gem 'monban', '~> 0.2.0'
 gem 'date_validator', '~> 0.7.0'
 gem 'paperclip', '~> 4.1'
 gem 'stripe', '~> 1.15.0'
 
 group :developement do
   gem 'spring'
-  gem 'monban-generators', '~> 0.0.4'
+  gem 'monban-generators', '~> 0.0.5'
 end
 
 group :development, :test do
